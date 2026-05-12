@@ -1,0 +1,3 @@
+window.NEARBY_CONFIG = {
+  NAVER_MAP_NCP_KEY_ID: ""
+};

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "sample-seoul-city-hall",
+    "name": "서울시청 서소문청사 충전소",
+    "operator": "환경부",
+    "address": "서울 중구 덕수궁길 15",
+    "lat": 37.563646,
+    "lng": 126.975149,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "fast", "kw": 100, "status": "available" },
+      { "id": "02", "speed": "fast", "kw": 100, "status": "busy" },
+      { "id": "03", "speed": "slow", "kw": 7, "status": "available" }
+    ]
+  },
+  {
+    "id": "sample-gwanghwamun",
+    "name": "광화문 D타워 주차장",
+    "operator": "차지비",
+    "address": "서울 종로구 종로3길 17",
+    "lat": 37.571013,
+    "lng": 126.978975,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "fast", "kw": 50, "status": "available" },
+      { "id": "02", "speed": "slow", "kw": 7, "status": "busy" }
+    ]
+  },
+  {
+    "id": "sample-seoul-station",
+    "name": "서울역 롯데마트 충전소",
+    "operator": "한국전력",
+    "address": "서울 중구 한강대로 405",
+    "lat": 37.555986,
+    "lng": 126.97061,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "fast", "kw": 100, "status": "busy" },
+      { "id": "02", "speed": "fast", "kw": 100, "status": "busy" },
+      { "id": "03", "speed": "slow", "kw": 7, "status": "available" }
+    ]
+  },
+  {
+    "id": "sample-euljiro",
+    "name": "을지로입구 공영주차장",
+    "operator": "서울에너지공사",
+    "address": "서울 중구 을지로 66",
+    "lat": 37.566285,
+    "lng": 126.982661,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "slow", "kw": 7, "status": "available" },
+      { "id": "02", "speed": "slow", "kw": 7, "status": "available" },
+      { "id": "03", "speed": "slow", "kw": 7, "status": "offline" }
+    ]
+  },
+  {
+    "id": "sample-yongsan",
+    "name": "용산역 아이파크몰 충전소",
+    "operator": "에버온",
+    "address": "서울 용산구 한강대로23길 55",
+    "lat": 37.529771,
+    "lng": 126.964741,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "fast", "kw": 200, "status": "available" },
+      { "id": "02", "speed": "fast", "kw": 100, "status": "available" },
+      { "id": "03", "speed": "slow", "kw": 7, "status": "busy" }
+    ]
+  },
+  {
+    "id": "sample-gangnam",
+    "name": "강남역 공영주차장 충전소",
+    "operator": "환경부",
+    "address": "서울 강남구 강남대로 지하396",
+    "lat": 37.497952,
+    "lng": 127.027619,
+    "updatedAt": "2026-05-11T03:00:00+09:00",
+    "chargers": [
+      { "id": "01", "speed": "fast", "kw": 100, "status": "available" },
+      { "id": "02", "speed": "fast", "kw": 50, "status": "offline" },
+      { "id": "03", "speed": "slow", "kw": 7, "status": "available" }
+    ]
+  }
+]

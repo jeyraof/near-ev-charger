@@ -1,0 +1,18 @@
+{
+  "name": "nearby-ev-chargers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --no-warnings=ExperimentalWarning server.js",
+    "start": "node --no-warnings=ExperimentalWarning server.js",
+    "data:bootstrap": "node --no-warnings=ExperimentalWarning scripts/bootstrap-kepco-stations.js",
+    "data:check-key": "node --no-warnings=ExperimentalWarning scripts/check-public-data-key.js",
+    "data:refresh": "node --no-warnings=ExperimentalWarning scripts/cache-stations.js",
+    "data:status": "node --no-warnings=ExperimentalWarning scripts/data-status.js",
+    "env:status": "node --no-warnings=ExperimentalWarning scripts/env-status.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
