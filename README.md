@@ -2,6 +2,9 @@
 
 모바일에서 현재 위치를 받아 가까운 전기차 충전소를 거리순으로 보여주고, 충전소를 누르면 내비게이션 앱으로 길 안내를 여는 정적 웹앱입니다.
 
+<img width="453" height="956" alt="image" src="https://github.com/user-attachments/assets/c77ba04a-3598-4531-aa7d-57f2d2b8a665" />
+
+
 ## 실행과 종료
 
 개발 서버를 켭니다.
